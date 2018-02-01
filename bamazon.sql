@@ -3,7 +3,7 @@ CREATE DATABASE bamazon_db;
 USE bamazon_db; 
 
 CREATE TABLE products (
-position INT NOT NULL, 
+position INT NOT NULL AUTO_INCREMENT, 
 product_name VARCHAR (150) NULL, 
 department_name VARCHAR(150) NULL,
 price DECIMAL(10,2) NOT NULL,
